@@ -52,7 +52,7 @@ export default function HomeView({
         </div>
       </section>
 
-      {/* Categories */}
+    /*  {/* Categories */}
     <section>
   <h2 className="text-lg font-semibold mb-3 text-gray-800">Danh Mục Sản Phẩm</h2>
   <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
@@ -70,7 +70,7 @@ export default function HomeView({
     ))}
   </div>
 </section>
-
+*/
 
       {/* Featured Products */}
       <section>
