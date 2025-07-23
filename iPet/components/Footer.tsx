@@ -258,7 +258,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-center md:text-left">
               <p className="text-sm text-gray-400">© 2024 iPet. Tất cả quyền được bảo lưu.</p>
-              <p className="text-xs text-gray-500 mt-1">Giấy phép kinh doanh số: 0123456789 do Sở KH&ĐT TP.HCM cấp</p>
+              <p className="text-xs text-gray-500 mt-1">Giấy phép kinh doanh số: 0123456789 do Sở KH&ĐT TP.Hà Nội cấp</p>
             </div>
 
             <div className="flex items-center space-x-6">
