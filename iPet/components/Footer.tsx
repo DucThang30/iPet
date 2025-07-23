@@ -168,7 +168,7 @@ export default function Footer() {
                   <div>
                     <p className="font-medium">Trụ Sở Chính</p>
                     <p className="text-gray-400">
-                      Khu Công nghệ Cao hòa Lạc
+                      Khu Công nghệ Cao
                       <br />
                      Hòa lạc<br />
                       TP. Hà Nội
