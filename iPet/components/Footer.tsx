@@ -168,10 +168,10 @@ export default function Footer() {
                   <div>
                     <p className="font-medium">Trụ Sở Chính</p>
                     <p className="text-gray-400">
-                      123 Đường Nguyễn Văn Linh
+                      Khu Công nghệ Cao hòa Lạc
                       <br />
-                      Phường Tân Phong, Quận 7<br />
-                      TP. Hồ Chí Minh
+                     Hòa lạc<br />
+                      TP. Hà Nội
                     </p>
                   </div>
                 </div>
