@@ -53,24 +53,25 @@ export default function HomeView({
       </section>
 
       {/* Categories */}
-      <section>
-        <h2 className="text-2xl font-bold mb-6">Danh Mục Sản Phẩm</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-          {categories.map((category) => (
-            <Card
-              key={category.name}
-              className="cursor-pointer hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
-              onClick={() => onCategoryFilter(category.name)}
-            >
-              <CardContent className="p-6 text-center">
-                <div className="text-4xl mb-3">{category.icon}</div>
-                <h3 className="font-semibold mb-1">{category.name}</h3>
-                <p className="text-sm text-gray-600">{category.count} sản phẩm</p>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </section>
+     <section>
+  <h2 className="text-xl font-semibold mb-4 text-gray-800">Danh Mục Sản Phẩm</h2>
+  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
+    {categories.map((category) => (
+      <Card
+        key={category.name}
+        className="cursor-pointer border border-gray-200 rounded-lg hover:shadow-md transition duration-200"
+        onClick={() => onCategoryFilter(category.name)}
+      >
+        <CardContent className="p-4 text-center space-y-1">
+          <div className="text-2xl text-gray-700">{category.icon}</div>
+          <h3 className="text-sm font-medium text-gray-800">{category.name}</h3>
+          <p className="text-xs text-gray-500">{category.count} sản phẩm</p>
+        </CardContent>
+      </Card>
+    ))}
+  </div>
+</section>
+
 
       {/* Featured Products */}
       <section>
